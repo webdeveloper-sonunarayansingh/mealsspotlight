@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pad{
+    padding-top: 2.5vh;
+    padding-bottom: 10vh;
+}
+.navBar{
+    height:15vh;
+}
+
+.image{
+    height:40%;
+    width:20vh;
+    
+}
+.navBar-position{
+    padding-top: 54px;
+}
+
+.button-pair {
+    display: flex; /* Use flexbox to display buttons side by side */
+    align-items: center; /* Vertically align items in the center (optional) */
+    margin-bottom: 10px; /* Add margin to separate pairs */
+    justify-content: center;
+  }
+   
+
+  
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0; /* Initially, no fill (0%) */
+    cursor: pointer;
+    color:red
+  }
+  
+  .material-symbols-outlined.favorited {
+    font-variation-settings: 'FILL' 100; /* When favorited, set fill to 100% (red) */
+    cursor: pointer;
+    color:red
+  }
+  
+
+/* Equivalent CSS for Tailwind CSS classes */
+.card {
+    padding: 0.25rem 1rem; /* Equivalent to px-4 py-1 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #9333EA; /* Equivalent to text-purple-600 */
+    font-weight: 600; /* Equivalent to font-semibold */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    border: 1px solid #9333EA; /* Equivalent to border border-purple-200 */
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+    color: #fff; /* Equivalent to hover:text-white */
+    background-color: #9333EA; /* Equivalent to hover:bg-purple-600 */
+    border-color: transparent; /* Equivalent to hover:border-transparent */
+}
+
+.card:focus {
+    outline: none; /* Equivalent to focus:outline-none */
+    ring-width: 2px; /* Equivalent to focus:ring-2 */
+    ring-color: #9333EA; /* Equivalent to focus:ring-purple-600 */
+    ring-offset-width: 2px; /* Equivalent to focus:ring-offset-2 */
+}
+
+
+.favButton {
+    padding: 0.25rem 1rem; /* Equivalent to px-4 py-1 */
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #010c0fe8; /* Equivalent to text-purple-600 */
+    font-weight: 600; /* Equivalent to font-semibold */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    border: 1px solid cyan; /* Equivalent to border border-purple-200 */
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.favButton:hover {
+    color: #fff; /* Equivalent to hover:text-white */
+    background-color: rgb(15, 142, 62); /* Equivalent to hover:bg-purple-600 */
+    border-color: transparent; /* Equivalent to hover:border-transparent */
+}
+
+.favButton:focus {
+    outline: none; /* Equivalent to focus:outline-none */
+    ring-width: 2px; /* Equivalent to focus:ring-2 */
+    ring-color: cyan; /* Equivalent to focus:ring-purple-600 */
+    ring-offset-width: 2px; /* Equivalent to focus:ring-offset-2 */
+}
+
+
